@@ -1,0 +1,35 @@
+main {
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+main h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+  }
+
+.bookmark-body {
+font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+@media screen and (max-width:900px) {
+    .inputWrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .inputWrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .inputWrapper {
+        width: 100%;
+    }
+}
